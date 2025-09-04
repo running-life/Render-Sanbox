@@ -34,3 +34,5 @@ endif()
 # sanbox
 set(DONUT_DIR ${CMAKE_SOURCE_DIR}/external/donut)
 add_subdirectory(sanbox/triangle)
+# add_subdirectory(sanbox/deferred-render)
+add_subdirectory(sanbox/forward-render)
